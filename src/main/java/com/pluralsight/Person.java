@@ -21,6 +21,13 @@ public class Person {
         return this.name + " has " + this.health + " health ";
     }
 
+    public void takesdamage(int amount){
+        //reduce the health by the amount of damage
+        this.health -= amount;
+        if(this.health < 0){
+            health = 0;
+        }
+    }
 
 
 

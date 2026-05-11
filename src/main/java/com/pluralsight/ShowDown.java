@@ -32,5 +32,10 @@ public class ShowDown {
         System.out.println(somePerson.getStatus());
         System.out.println(someSuperHero.getStatus());
         System.out.println(someVillian.getStatus());
+
+        System.out.println(someVillian.getName() + "has been attacked");
+        someVillian.takesdamage(75);
+        System.out.println(someVillian.getStatus());
     }
+
 }
