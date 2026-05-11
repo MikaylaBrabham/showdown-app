@@ -9,7 +9,7 @@ public class SuperHero extends Person {
         super(name, health, powerLevel);
     }
 
-    public int getpowerLevel(){
+    public int getPowerLevel(){
         return this.experiencePoints;
     }
 }
