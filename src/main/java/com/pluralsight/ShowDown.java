@@ -29,6 +29,8 @@ public class ShowDown {
         } else {
             System.out.println(someVillian.getName() + "isn't alive");
         }
-        somePerson.getStatus()
+        System.out.println(somePerson.getStatus());
+        System.out.println(someSuperHero.getStatus());
+        System.out.println(someVillian.getStatus());
     }
 }
