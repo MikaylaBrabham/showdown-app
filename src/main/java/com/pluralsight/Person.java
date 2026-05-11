@@ -11,12 +11,21 @@ public class Person {
         this.health = health;
         this.experiencePoints = experiencePoints;
     }
-
+    // interesting methods
     public boolean isAlive(){
         //return true if health is more than 0 and false if less
         return this.health > 0;
     }
 
+    public String getStatus(){
+        return this.name + " has " + this.health + " health ";
+    }
+
+
+
+
+
+    // added getters and setters
     public String getName() {
         return name;
     }

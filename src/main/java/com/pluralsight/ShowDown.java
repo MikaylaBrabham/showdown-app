@@ -29,6 +29,6 @@ public class ShowDown {
         } else {
             System.out.println(someVillian.getName() + "isn't alive");
         }
-
+        somePerson.getStatus()
     }
 }
